@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Update Contact</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script rel="text/javascript" src="common.js"></script>
+  </head>
+  <body onload="updateOnload()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="icon.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        My Phonebook
+      </a>
+    </nav>
+    <br /><br />
+    <div class="container-fluid">
+      <nav class="navbar">
+        <h3 style="float: left;">Update Contact</h3>
+        <input
+          type="submit"
+          value="Add Contact"
+          style="align-content: flex-end;"
+          class="btn btn-outline-success my-2 my-sm-0"
+          onclick="location.href = 'Newcontact.html'"
+        />
+      </nav>
+    </div>
+    <div class="container-fluid"><h6>**Click on the cell to make the changes and then click "Update" to save it.</h6></div>
+    <table class="table" id="content">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Email</th>
+          <th scope="col">Address</th>
+          <th scope="col">Update</th>
+        </tr>
+      </thead>
+  </body>
+</html>
