@@ -33,7 +33,7 @@ How to install? 🛠
 
 Steps:
 
-1.Initiate project from project folder using cmd : npm init from CMD line
+1.Initiate project from project folder using ```cmd : npm init``` from CMD line
 
 2.Install ExpressJs using ```cmd : npm install express```
 
